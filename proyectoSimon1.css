@@ -6,6 +6,8 @@ body{
     padding: 0px;
 }
 
+/* Navegacion css */
+
 #Menu{ 
     background-image: url('/Proyecto1FondoMenu.jpg');
     width: 550px;
@@ -44,4 +46,68 @@ body{
     margin-left: 30px !important;
     margin-top: 0px !important;
     padding-top: 10px !important;
+}
+
+/* contenudo collage */
+
+.imagen{
+    position: absolute;
+    color: rgb(100,100,100);
+    width: 550px;
+    height: 230px;
+}
+
+.imagen img{
+    position: absolute;
+    z-index: -1;
+    width: 550px;
+    height: 230px;
+}
+
+.imagen h1{
+    z-index: 2;
+    font-family: Times New Roman;
+    font-size: 13;
+    padding-top: 15px;
+    padding-left: 150px;
+}
+
+.imagen p{
+    z-index: 2;
+    font-size: 9;
+    padding-left: 150px;
+    width: 300px;
+}
+
+.imagen div{
+    z-index: 2;
+    background-color: rgba(225,255,255,0.8);
+    width: 100px;
+    height: 20px;
+    margin-top: 70px;
+    margin-left: 220px;
+}
+
+.imagen div a{
+    color: black;
+}
+
+#botoneraCollage{
+    z-index: 3;
+    width: 100px;
+    height: 40px;
+    margin-right: 5px;
+    padding-top: 200px;
+    padding-left: 450px;
+}
+
+.botonera{
+    position: relative;
+    float: left;
+    background-color: rgba(0,0,255,0.6);
+    border: 2px solid blue;
+    border-radius: 100%;
+    width: 5px;
+    height: 5px;
+    margin-left: 2px;
 }
